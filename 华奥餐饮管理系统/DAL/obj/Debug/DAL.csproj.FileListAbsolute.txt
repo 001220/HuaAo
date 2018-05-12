@@ -1,0 +1,7 @@
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\DAL\bin\Debug\DAL.dll
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\DAL\bin\Debug\DAL.pdb
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\DAL\bin\Debug\Model.dll
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\DAL\bin\Debug\Model.pdb
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\DAL\obj\Debug\DAL.dll
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\DAL\obj\Debug\DAL.pdb

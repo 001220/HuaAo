@@ -1,0 +1,4 @@
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\Model\bin\Debug\Model.dll
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\Model\bin\Debug\Model.pdb
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\Model\obj\Debug\Model.dll
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\Model\obj\Debug\Model.pdb

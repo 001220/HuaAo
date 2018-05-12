@@ -1,0 +1,9 @@
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\BLL\bin\Debug\BLL.dll
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\BLL\bin\Debug\BLL.pdb
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\BLL\bin\Debug\DAL.dll
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\BLL\bin\Debug\Model.dll
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\BLL\bin\Debug\DAL.pdb
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\BLL\bin\Debug\Model.pdb
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\BLL\obj\Debug\BLL.dll
+E:\C#\S2\整体作业\Day22\华奥餐饮管理系统\BLL\obj\Debug\BLL.pdb

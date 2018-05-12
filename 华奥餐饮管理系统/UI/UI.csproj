@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41C44B26-2185-45EE-95FD-777C6878D9FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>华奥餐饮管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountsForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountsForm1.Designer.cs">
+      <DependentUpon>AccountsForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForm.Designer.cs">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillForm.Designer.cs">
+      <DependentUpon>BillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillingForm.Designer.cs">
+      <DependentUpon>BillingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommoditiesEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommoditiesEditorForm.Designer.cs">
+      <DependentUpon>CommoditiesEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommodityCategoryEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommodityCategoryEditorForm.Designer.cs">
+      <DependentUpon>CommodityCategoryEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsumptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsumptionForm.Designer.cs">
+      <DependentUpon>ConsumptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditingRoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditingRoomForm.Designer.cs">
+      <DependentUpon>EditingRoomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionForm.Designer.cs">
+      <DependentUpon>FunctionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoodsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoodsForm.Designer.cs">
+      <DependentUpon>GoodsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginFrom.Designer.cs">
+      <DependentUpon>LoginFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberEditorForm.Designer.cs">
+      <DependentUpon>MemberEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberLevelEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberLevelEditorForm.Designer.cs">
+      <DependentUpon>MemberLevelEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberManagementForm.Designer.cs">
+      <DependentUpon>MemberManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperatorAddForm.Designer.cs">
+      <DependentUpon>OperatorAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomForm.Designer.cs">
+      <DependentUpon>RoomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemSettingsForm.Designer.cs">
+      <DependentUpon>SystemSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TheTableEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TheTableEditorForm.Designer.cs">
+      <DependentUpon>TheTableEditorForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccountsForm1.resx">
+      <DependentUpon>AccountsForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForm.resx">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillForm.resx">
+      <DependentUpon>BillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingForm.resx">
+      <DependentUpon>BillingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommoditiesEditorForm.resx">
+      <DependentUpon>CommoditiesEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommodityCategoryEditorForm.resx">
+      <DependentUpon>CommodityCategoryEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsumptionForm.resx">
+      <DependentUpon>ConsumptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditingRoomForm.resx">
+      <DependentUpon>EditingRoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionForm.resx">
+      <DependentUpon>FunctionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoodsForm.resx">
+      <DependentUpon>GoodsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginFrom.resx">
+      <DependentUpon>LoginFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberEditorForm.resx">
+      <DependentUpon>MemberEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberLevelEditorForm.resx">
+      <DependentUpon>MemberLevelEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberManagementForm.resx">
+      <DependentUpon>MemberManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorAddForm.resx">
+      <DependentUpon>OperatorAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomForm.resx">
+      <DependentUpon>RoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemSettingsForm.resx">
+      <DependentUpon>SystemSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TheTableEditorForm.resx">
+      <DependentUpon>TheTableEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddUse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advancedsettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\count.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastFood.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileprint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_tar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FoodManager.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hein29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfm_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kghostview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khelpcenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kteatime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kthememgr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\run.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sign - Dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeaCup.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trashcan_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viewmag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vip.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\virus detected 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\virus detected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\交班管理.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\可用.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\商品管理.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\系统管理.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\系统设置.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\宴席预订.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\营业查询.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\预订.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\脏台.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\正使用.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{57e040a3-0af0-4c3b-9088-b4464cea155b}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{3cc129f3-1be4-4927-b941-d35f02fc1def}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
